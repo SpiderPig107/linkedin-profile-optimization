@@ -1,12 +1,14 @@
 # LinkedIn Profile Optimization Skill (`linkedin-profile-optimization`)
 
-[![Antigravity Skill](https://img.shields.io/badge/Antigravity-Skill-4285F4?logo=google&logoColor=white)](https://antigravity.google)
+[![Antigravity Skill](https://img.shields.io/badge/Antigravity-Native-4285F4?logo=google&logoColor=white)](https://antigravity.google)
+[![Claude Compatible](https://img.shields.io/badge/Claude-Projects%20Compatible-D97706?logo=anthropic&logoColor=white)]()
+[![ChatGPT Compatible](https://img.shields.io/badge/ChatGPT-Custom%20GPT%20Ready-10A37F?logo=openai&logoColor=white)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Production Ready](https://img.shields.io/badge/Status-Production%20Ready-success.svg)]()
 [![Security: Evaluated](https://img.shields.io/badge/Security-Evaluated%20%26%20Zero--Leak-brightgreen.svg)]()
 [![LinkedIn Capacity](https://img.shields.io/badge/LinkedIn%20Capacity-100%20Skills-0A66C2?logo=linkedin&logoColor=white)]()
 
-A recruiter-grade, conversion-engineered skill for **Antigravity**, **Antigravity IDE**, and agentic AI pair programmers. 
+A recruiter-grade, conversion-engineered skill natively built for **Antigravity** and **Antigravity IDE**, and fully compatible with **Claude Projects** and **ChatGPT Custom GPTs**.
 
 It transforms any professional's LinkedIn profile into an **information architecture of hard proof**—maximizing recruiter search visibility, passing automated Boolean filters, dismantling hiring manager skepticism, and eliminating every telltale sign of machine-generated prose.
 
@@ -113,7 +115,7 @@ To use this skill within a specific project or career workspace:
 1. Clone or copy this repository into your workspace's `.agents/skills/` directory:
    ```bash
    mkdir -p .agents/skills
-   git clone https://github.com/<your-username>/linkedin-profile-optimization.git .agents/skills/linkedin-profile-optimization
+   git clone https://github.com/SpiderPig107/linkedin-profile-optimization.git .agents/skills/linkedin-profile-optimization
    ```
 2. Open Antigravity or Antigravity IDE in your workspace. The skill will be automatically discovered.
 
@@ -122,8 +124,25 @@ To make this skill available across every project on your local machine:
 
 ```bash
 mkdir -p ~/.gemini/config/skills
-git clone https://github.com/<your-username>/linkedin-profile-optimization.git ~/.gemini/config/skills/linkedin-profile-optimization
+git clone https://github.com/SpiderPig107/linkedin-profile-optimization.git ~/.gemini/config/skills/linkedin-profile-optimization
 ```
+
+### Option 3: Claude & ChatGPT Setup
+
+While natively engineered for Antigravity's filesystem automation, the prompt architecture and anti-AI writing engine are 100% model-agnostic:
+
+* **Claude.ai (Claude Projects):**
+  1. Create a new **Project** in Claude.ai (e.g., *"LinkedIn Profile Architect"*).
+  2. Upload `SKILL.md` and `references/SIGNS_OF_AI_WRITING.md` into **Project Knowledge**.
+  3. Set the Project Instructions: *"Follow the instructions in `SKILL.md` and adhere strictly to `SIGNS_OF_AI_WRITING.md` whenever I ask to optimize my profile."*
+  4. Claude will execute the sequential workflow and render rewrites into interactive **Claude Artifacts**.
+* **ChatGPT (Custom GPTs / Canvas):**
+  1. Open **Explore GPTs** $\rightarrow$ **Create a GPT**.
+  2. Paste the contents of `SKILL.md` into **Instructions**.
+  3. Upload `references/SIGNS_OF_AI_WRITING.md` to **Knowledge**.
+  4. ChatGPT will run the sequential approval dialogue and output drafts into **Canvas**.
+* **Standard Web Chat (Zero Setup):**
+  - Simply copy-paste the contents of `SKILL.md` into any Claude or ChatGPT conversation followed by your CV text.
 
 ---
 
