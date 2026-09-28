@@ -36,7 +36,7 @@ Prompt the user to provide their target market:
 *Resilient Multi-Channel Ingestion Protocol:* If an ATS or corporate career link blocks automated fetching (e.g., 403 bot walls on Workday, Tesla, or SPA portals), immediately fall back to live targeted web search or ask the user to paste the raw text to prevent stalls.
 
 ### Step 1.2b: Interactive Clarification Protocol (Adaptive Sequential Inquiry)
-Whenever clarifying background gaps, industry nuances, or personal priorities:
+Whenever clarifying background gaps, industry nuances, core professional philosophy, or personal priorities:
 * **Strictly One Question at a Time:** Never dump a batch of open-ended questions.
 * **Multiple Choice with Write-In:** Provide calibrated multiple-choice options (A, B, C) paired with an explicit write-in option (D).
 * **Adaptive Dynamic Branching:** Incorporate the answer from Question N before formulating Question N+1.
@@ -108,7 +108,7 @@ Phase 4: Zero-Friction Social Proof (Task 4.9)
 #### Task 4.2: About Section (Story & Value Proposition)
 * **Target Length:** 1,800–2,100 characters (optimal for mobile scannability and SEO keyword density).
 * **Structure:**
-  1. The Non-Linear Career Hook (personal philosophy without corporate clichés).
+  1. **The Authentic Personal Philosophy Hook:** Analyze the CV and LinkedIn profile data to understand the candidate's genuine trajectory and problem-solving mindset. If their core motivation or professional philosophy is unclear, ask a targeted clarifying question (using the Step 1.2b adaptive protocol). Craft a 2–3 sentence opening that articulates their distinctive professional philosophy and approach—avoiding corporate clichés, generic buzzwords, or rigid templates.
   2. Core Commercial Value Proposition.
   3. Symmetric Proof Bullets (explicitly matching the Top 5 Pinned Skills).
   4. Technical Toolkit & Domain Methodology.
@@ -117,11 +117,10 @@ Phase 4: Zero-Friction Social Proof (Task 4.9)
 
 #### Task 4.3: Experience Section
 For every position, provide:
-1. **Functional Leadership Titles:** Preserve project-level leadership titles (e.g., *"Workstream Lead | [Project]"*) when HR titles understate scope.
-2. **Respect Proven Candidate Phrasing:** If the candidate provides polished, battle-tested accomplishment bullets, do NOT gratuitously reword them. Preserve authentic wording, injecting only standardized taxonomy terms, missing tools, or metrics where needed.
-3. **Formula:** `[Action Verb] + [Context/Problem] + [Methodology/Tool] + [Quantified Metric/Impact]`.
-4. **Atomic Position Skills (3–5 per role):** Recommend standard auto-complete terms recognized in LinkedIn's taxonomy (e.g. `Strategy`, `Business Operations`, never composite unstandardized phrases).
-5. **Multi-Project Media Discovery:** For positions covering multiple distinct client engagements or workstreams, probe for public reports, broadcast links, or deliverables across *each distinct engagement stream*, not just the overall company entry. Provide exact copy-paste Title and Description with candidate-level attribution.
+1. **Respect Proven Candidate Phrasing:** If the candidate provides polished, battle-tested accomplishment bullets, do NOT gratuitously reword them. Preserve authentic wording, injecting only standardized taxonomy terms, missing tools, or metrics where needed.
+2. **Formula:** `[Action Verb] + [Context/Problem] + [Methodology/Tool] + [Quantified Metric/Impact]`.
+3. **Atomic Position Skills (3–5 per role):** Recommend standard auto-complete terms recognized in LinkedIn's taxonomy (e.g. `Strategy`, `Business Operations`, never composite unstandardized phrases).
+4. **Multi-Project Media Discovery:** For positions covering multiple distinct client engagements or workstreams, probe for public reports, broadcast links, or deliverables across *each distinct engagement stream*, not just the overall company entry. Provide exact copy-paste Title and Description with candidate-level attribution.
 
 #### Task 4.4: Education & Certifications
 * Structure each degree: Institution, Degree Name, Field of Study, Dates, Honors/Grades.
