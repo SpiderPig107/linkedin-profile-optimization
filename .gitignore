@@ -1,0 +1,19 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# User Generated Career Data (Prevents accidental commits of personal data)
+LINKEDIN_PROFILE_DATA.md
+LINKEDIN_PROFILE_REWRITES.md
+*.pdf
+*.docx
+*.csv
+
+# Logs & Temporary Files
+*.log
+*.tmp
+.agents/
+.idea/
+.vscode/
