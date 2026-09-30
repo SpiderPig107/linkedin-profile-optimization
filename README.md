@@ -1,166 +1,142 @@
-# LinkedIn Profile Optimization Skill (`linkedin-profile-optimization`)
+# LinkedIn Profile Optimization Assistant
 
-[![Antigravity Skill](https://img.shields.io/badge/Antigravity-Native-4285F4?logo=google&logoColor=white)](https://antigravity.google)
-[![Claude Compatible](https://img.shields.io/badge/Claude-Projects%20Compatible-D97706?logo=anthropic&logoColor=white)]()
-[![ChatGPT Compatible](https://img.shields.io/badge/ChatGPT-Custom%20GPT%20Ready-10A37F?logo=openai&logoColor=white)]()
+[![Antigravity Native](https://img.shields.io/badge/Antigravity-Native-4285F4?logo=google&logoColor=white)](https://antigravity.google)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Production Ready](https://img.shields.io/badge/Status-Production%20Ready-success.svg)]()
-[![Security: Evaluated](https://img.shields.io/badge/Security-Evaluated%20%26%20Zero--Leak-brightgreen.svg)]()
-[![LinkedIn Capacity](https://img.shields.io/badge/LinkedIn%20Capacity-100%20Skills-0A66C2?logo=linkedin&logoColor=white)]()
+[![Privacy: 100% Local](https://img.shields.io/badge/Privacy-100%25%20Local-brightgreen.svg)]()
 
-A recruiter-grade, conversion-engineered skill natively built for **Antigravity** and **Antigravity IDE**, and fully compatible with **Claude Projects** and **ChatGPT Custom GPTs**.
+An AI-powered assistant that gives your LinkedIn profile a complete, executive-grade makeover. 
 
-It transforms any professional's LinkedIn profile into an **information architecture of hard proof**—maximizing recruiter search visibility, passing automated Boolean filters, dismantling hiring manager skepticism, and eliminating every telltale sign of machine-generated prose.
+It helps you **get found by recruiters**, highlights your strongest career achievements, and **sounds 100% human**—with zero robotic AI clichés.
 
 ---
 
 ## ⚡ The Problem: Why 99% of AI LinkedIn Rewrites Fail
 
-Most LLMs generate catastrophic LinkedIn profile copy:
-1. **The "AI Sound" Trap:** LLMs compulsively use theatrical negative parallelisms (*"Not just a data analyst, but a strategic partner..."*), purple copulatives (*"Stands as a testament to..."*), and statistical dead-giveaways (*"delve"*, *"tapestry"*, *"pivotal"*, *"beacon"*, *"spearhead"*). Hiring managers immediately recognize machine-generated text and dismiss the candidate.
-2. **The Recruiter Taxonomy Mismatch:** Generic AI invents composite job titles (e.g. *"Quantitative Strategy Analyst"*) that corporate recruiters never search for, or invents composite skill tags that do not exist in LinkedIn's standardized atomic skill database.
-3. **Premature Aggregation:** Standard AI tools dump a list of 50 skills without linking them to actual work, education, or projects, producing unverified floating keywords that fail algorithmic context weighting.
-4. **Outdated Platform Limits:** Most tools still enforce an obsolete 50-skill cap, needlessly pruning 50% of the candidate's keyword surface area rather than utilizing LinkedIn's modern **100-skill ceiling**.
+When you ask ChatGPT or generic AI to write your LinkedIn profile, the results usually backfire:
+
+1. **The "Robot Sound" Trap**: Generic AI loves clichés like *"passionate visionary"*, *"spearheaded"*, *"delve"*, and dramatic phrasing (*"Not just a data analyst, but a strategic partner..."*). Hiring managers spot AI-written profiles instantly and skip them.
+2. **Invisible to Recruiters**: AI often invents fancy job titles that corporate recruiters never actually search for, or invents skills that don't match LinkedIn’s official search filters.
+3. **Floating, Disconnected Skills**: Most tools dump a random list of 50 skills without connecting them to your real jobs, making your experience look unverified.
+4. **Outdated 50-Skill Cap**: LinkedIn updated its platform to support up to **100 skills**, but most AI tools still stop at 50, missing half of your search potential.
 
 ---
 
-## 🏗️ The Solution: The 4-Phase Hard-Proof Architecture
+## 🏗️ The Solution: A Step-by-Step 4-Phase Makeover
 
-This skill treats LinkedIn as an interconnected dependency graph. You cannot aggregate or curate what has not yet been anchored to proof:
+Instead of dumping a generic wall of text, this assistant builds your profile in 4 clear, logical phases:
 
-```
-Phase 1: Proof-Building (Tasks 4.1 – 4.6)
-  │  • Headline (Standard Recruiter Taxonomy, <220 chars)
-  │  • About Section (1,800–2,100 char sweet spot, 1:1 symmetry with Top 5)
-  │  • Experience (Quantified metrics, atomic skills, multi-workstream media)
-  │  • Education & Certs (Consortium rules, credential links)
-  │  • Standalone Projects (Architecture, models, verified deliverables)
-  │  • Supporting Sections (Publications, Honors, Languages)
-  ▼
-Phase 2: Master Aggregation & 100-Skill Capacity (Task 4.7)
-  │  • Harvest upstream skills to generate "Used in: [Role X]" trust badges
-  │  • Backfill remaining slots up to 100 skills using verified hard skills
-  │  • Lock Top 5 Pinned Skills widget to mirror About section
-  ▼
-Phase 3: Curated Featured Showcase (Task 4.8)
-  │  • Curate 3–5 sensory cards based on explicit cognitive perception goals
-  │  • Mitigate bounce rates using native interactive PDF decks in Position 1
-  ▼
-Phase 4: Zero-Friction Social Proof (Task 4.9)
-     • 3 targeted recommenders (Manager, Peer, Academic/Advisor)
-     • Pre-drafted, ghostwritten 2–3 sentence endorsement copy
-```
+* **Phase 1: Solid Proof & Foundation**  
+  Crafts your **Headline**, **About** summary, **Work Experience** bullets, and **Projects** using real numbers and achievements—matching the exact keywords recruiters search for.
+* **Phase 2: Complete 100-Skill Bank**  
+  Identifies up to 100 relevant skills and links each one directly to your past roles, giving you official LinkedIn "Used in: [Role]" credibility badges.
+* **Phase 3: Featured Visual Showcase**  
+  Recommends the best presentations, portfolio links, or PDF decks to pin to the top of your profile so visitors stay and engage.
+* **Phase 4: Targeted Recommendations**  
+  Provides pre-drafted, 2–3 sentence endorsement templates you can send to past managers, peers, or mentors to build social proof.
 
 ---
 
-## 🛡️ Core Architectural Innovations
+## 🛡️ Core Innovations: Why It Actually Works
 
-### 1. Strict Explicit Approval Loops (`"I approve"`)
-The agent never hallucinates or races ahead. Rewrites are delivered **one section at a time**, accompanied by clear strategic rationale. The agent is hard-gated: it will not proceed to the next section until the user explicitly replies with **"I approve"** or **"I approved"**.
-
-### 2. Anti-AI Writing Engine (Wikipedia Standard)
-All suggested text is verified against the accompanying [SIGNS_OF_AI_WRITING.md](./references/SIGNS_OF_AI_WRITING.md) engine. It eliminates:
-* **Negative parallelisms:** Zero *"not just X, but also Y"* or *"Y rather than X"*.
-* **Purple copulatives:** Zero *"serves as"*, *"marks a"*, or *"stands as"*.
-* **Robotic triplets:** Breaks rhythmic three-item list habits.
-* **Outline conclusions:** Zero *"As the industry evolves..."* essays; strictly professional CTAs.
-
-### 3. Recruiter Search Taxonomy vs. Atomic Skill Standardization
-* **Job Titles:** Strictly aligned with standard LinkedIn Recruiter Boolean search taxonomy.
-* **Skills:** Strictly aligned with LinkedIn's atomic autocomplete database (e.g. `Strategy` and `Business Operations` rather than non-standard composite phrases).
-
-### 4. Resilient Multi-Channel Ingestion
-Automated ATS scrapers frequently hit 403 bot walls or single-page apps (Workday, SuccessFactors, Tesla, etc.). The skill executes an automatic multi-channel fallback:
-$$\text{URL Ingestion} \longrightarrow \text{Targeted Search Fallback} \longrightarrow \text{Direct User Paste}$$
-
-### 5. Adaptive Sequential Inquiry (No Question Dumps)
-Background clarification is conducted **strictly one question at a time** using structured multiple-choice options (A, B, C) paired with an open write-in fallback (D).
+* 🔒 **Strict Approval Gates (Zero Hallucination)**: The assistant will never run ahead, guess, or invent things you never did. It writes **one section at a time** and pauses. It literally cannot proceed until you review the text and explicitly reply **"I approve"**.
+* ✍️ **100% Human Writing Standard**: Every sentence is checked against an anti-AI style filter to ensure it sounds like an articulate, confident professional, not a machine.
+* 🧪 **Battle-Tested on a Real Case Study**: This entire workflow isn't theoretical. It was refined through a real-world case study on the creator, capturing platform quirks, edge cases, and hard-won lessons learned (documented in [`PROCESS_LOGS.md`](./references/PROCESS_LOGS.md)).
+* 📏 **Formatted for LinkedIn's Exact Limits**: Every headline (220 characters), summary (2,600 characters), and bullet is measured to prevent awkward cutoffs on mobile and desktop.
 
 ---
 
-## 🔒 Security, Privacy & Safety Evaluation
+## 🚀 How to Install & Use
 
-This skill has undergone a rigorous security and privacy evaluation aligned with the **OWASP Top 10 for Large Language Model Applications**:
+### 1. Add the Skill to Antigravity (One-Time Setup)
+Choose the method that is easiest for you:
 
-* **Zero Data Exfiltration (100% Local Execution):** The skill contains zero external API calls, tracking scripts, webhooks, or telemetry. All extracted candidate data and generated profile drafts remain entirely on the user's local disk in `./LINKEDIN_PROFILE_DATA.md` and `./LINKEDIN_PROFILE_REWRITES.md`.
-* **Zero Arbitrary Code Execution (Zero Attack Surface):** The repository contains **no executable code, bash scripts, or binaries** (0 `.py`, 0 `.js`, 0 `.sh`). It operates purely as an Antigravity prompt workflow, eliminating arbitrary code execution (ACE) risks.
-* **Prompt Injection Resilience:** To mitigate untrusted ATS job postings or CV text containing hidden prompt injections (OWASP LLM01), the skill enforces:
-  1. *Verbatim Entity Parsing:* Extracts factual entities (titles, tools, dates) while ignoring embedded instructional commands.
-  2. *Hard Approval Gates:* Requires the explicit user phrase `"I approve"` before advancing, preventing runaway agent execution.
-* **Supply Chain & Accidental Leak Prevention:** The included `.gitignore` strictly blocks personal career artifacts (`LINKEDIN_PROFILE_DATA.md`, `LINKEDIN_PROFILE_REWRITES.md`, `*.pdf`, `*.docx`, `*.csv`) from ever being committed to public version control.
-* **Secret & Credential Cleanliness:** Verified zero hardcoded API keys, authorization tokens, or private filesystem paths.
+* **Method A: Just Ask the AI in Chat (Easiest)**  
+  Open Antigravity or Antigravity IDE, open a chat in your workspace, and say:
+  > *"Please install the skill from `https://github.com/SpiderPig107/linkedin-profile-optimization` into my workspace."*  
+  Antigravity will automatically download and set it up for you.
+
+* **Method B: Download & Drag-and-Drop**  
+  1. Click the green **`< > Code`** button at the top of this GitHub page and select **Download ZIP**.
+  2. Unzip the file.
+  3. Move the `linkedin-profile-optimization` folder into your project workspace under `.agents/skills/`.
+
+---
+
+### 2. Start Your LinkedIn Makeover
+Once installed, open a conversation in Antigravity:
+* **Option A:** Type `/linkedin-profile-optimize` in the chat.
+* **Option B:** Or simply ask:  
+  > *"Help me optimize my LinkedIn profile for [Target Role, e.g. Strategy Manager or Data Analyst] positions."*
+
+---
+
+### 3. Share Your Background
+* Drop your current resume (PDF or Word) directly into the chat, or paste your career history.
+
+---
+
+### 4. Review & Approve Step-by-Step
+* The assistant will guide you through each section of your profile one at a time.
+* For each section, it explains the strategy and how it helps you get noticed.
+* **You stay in full control:** The assistant will only move to the next section when you explicitly say **"I approve"**.
+
+---
+
+### 5. Copy and Paste into LinkedIn
+* When finished, the assistant creates a clean cheat sheet that you simply copy and paste straight into your LinkedIn profile!
 
 ---
 
 ## 📁 Repository Structure
 
+Here is what is included in this repository and what each file does:
+
 ```text
 linkedin-profile-optimization/
-├── SKILL.md                        # Core Antigravity skill instructions & prompt engine
-├── README.md                       # Documentation & setup guide
-├── LICENSE                         # MIT License
-├── .gitignore                      # Prevents accidental commits of personal profile data
+├── SKILL.md                        # The core instruction engine that guides the AI assistant
+├── README.md                       # This guide (overview, setup, and instructions)
+├── LICENSE                         # MIT License (free to use and adapt)
+├── .gitignore                      # Privacy shield: prevents your personal resume and profile data from being uploaded to GitHub
 └── references/
-    ├── SIGNS_OF_AI_WRITING.md      # Anti-AI style guide (Wikipedia writing standards)
-    └── PROCESS_LOGS.md             # Battle-tested engineering logs, edge cases & platform quirks
+    ├── SIGNS_OF_AI_WRITING.md      # Anti-AI style guide (rules that ensure the writing sounds 100% human)
+    └── PROCESS_LOGS.md             # Real-world case study: lessons learned and LinkedIn platform quirks
 ```
 
 ---
 
-## 🚀 Installation & Setup
+## 🔒 Privacy & Data Safety
 
-### Option 1: Workspace Installation (Recommended)
-To use this skill within a specific project or career workspace:
+* **100% Private to You**: Your resume and career history are never uploaded to any public database, tracker, or external server.
+* **Local Storage**: When using Antigravity, all generated profile copy is saved locally on your own computer.
+* **Safe & Code-Free**: This tool contains no executable programs or background scripts—it operates purely as a guided AI assistant.
 
-1. Clone or copy this repository into your workspace's `.agents/skills/` directory:
-   ```bash
-   mkdir -p .agents/skills
-   git clone https://github.com/SpiderPig107/linkedin-profile-optimization.git .agents/skills/linkedin-profile-optimization
-   ```
-2. Open Antigravity or Antigravity IDE in your workspace. The skill will be automatically discovered.
+---
 
-### Option 2: Global Installation (All Workspaces)
-To make this skill available across every project on your local machine:
+## 🌐 Using on Other Platforms (ChatGPT / Claude)
+
+While built natively for Antigravity, you can also use this assistant on other AI platforms:
+
+* **ChatGPT**: Open [`SKILL.md`](./SKILL.md), copy the text, and paste it into a Custom GPT's Instructions (or directly into your chat alongside your resume).
+* **Claude**: Create a Claude Project, upload [`SKILL.md`](./SKILL.md) to Project Knowledge, and start a conversation.
+
+---
+
+## 💻 Developer / Command Line Setup (Optional)
+
+For technical users who prefer using Git in the terminal:
 
 ```bash
+# Install to current workspace
+mkdir -p .agents/skills
+git clone https://github.com/SpiderPig107/linkedin-profile-optimization.git .agents/skills/linkedin-profile-optimization
+
+# Or install globally across all workspaces
 mkdir -p ~/.gemini/config/skills
 git clone https://github.com/SpiderPig107/linkedin-profile-optimization.git ~/.gemini/config/skills/linkedin-profile-optimization
 ```
-
-### Option 3: Claude & ChatGPT Setup
-
-While natively engineered for Antigravity's filesystem automation, the prompt architecture and anti-AI writing engine are 100% model-agnostic:
-
-* **Claude.ai (Claude Projects):**
-  1. Create a new **Project** in Claude.ai (e.g., *"LinkedIn Profile Architect"*).
-  2. Upload `SKILL.md` and `references/SIGNS_OF_AI_WRITING.md` into **Project Knowledge**.
-  3. Set the Project Instructions: *"Follow the instructions in `SKILL.md` and adhere strictly to `SIGNS_OF_AI_WRITING.md` whenever I ask to optimize my profile."*
-  4. Claude will execute the sequential workflow and render rewrites into interactive **Claude Artifacts**.
-* **ChatGPT (Custom GPTs / Canvas):**
-  1. Open **Explore GPTs** $\rightarrow$ **Create a GPT**.
-  2. Paste the contents of `SKILL.md` into **Instructions**.
-  3. Upload `references/SIGNS_OF_AI_WRITING.md` to **Knowledge**.
-  4. ChatGPT will run the sequential approval dialogue and output drafts into **Canvas**.
-* **Standard Web Chat (Zero Setup):**
-  - Simply copy-paste the contents of `SKILL.md` into any Claude or ChatGPT conversation followed by your CV text.
-
----
-
-## 💻 How to Use
-
-1. Launch your Antigravity conversation and trigger the skill:
-   * **Slash Command:** Type `/linkedin-profile-optimize`
-   * **Natural Prompt:** *"Optimize my LinkedIn profile for Strategy & Operations and Data Analyst roles."*
-2. Provide your raw background (drop your CV, PDF, DOCX, or paste LinkedIn export CSVs).
-3. The agent will:
-   * Extract your verified data verbatim into `LINKEDIN_PROFILE_DATA.md`.
-   * Ask targeted clarification questions one-by-one.
-   * Propose 2–3 target positioning archetypes and an SEO keyword blueprint.
-   * Walk you through the 4-Phase build step-by-step, waiting for your `"I approve"` at each milestone.
-   * Save all production copy directly to `LINKEDIN_PROFILE_REWRITES.md` for clean, zero-friction copy-pasting into LinkedIn.
 
 ---
 
 ## 📄 License
 
-Distributed under the [MIT License](./LICENSE). Free for individual professionals, career coaches, and open-source contributors.
+Distributed under the [MIT License](./LICENSE). Free for individual job seekers, professionals, career coaches, and open-source contributors.
