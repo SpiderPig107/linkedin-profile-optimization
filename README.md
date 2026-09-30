@@ -23,16 +23,19 @@ When you ask ChatGPT or generic AI to write your LinkedIn profile, the results u
 
 ## 🏗️ The Solution: A Step-by-Step 4-Phase Makeover
 
-Instead of dumping a generic wall of text, this assistant builds your profile in 4 clear, logical phases:
+Instead of dumping a generic wall of text, this assistant builds your profile systematically through **9 focused production tasks** across 4 logical phases (following an initial intake and positioning diagnosis):
 
-* **Phase 1: Solid Proof & Foundation**  
-  Crafts your **Headline**, **About** summary, **Work Experience** bullets, and **Projects** using real numbers and achievements—matching the exact keywords recruiters search for.
-* **Phase 2: Complete 100-Skill Bank**  
-  Identifies up to 100 relevant skills and links each one directly to your past roles, giving you official LinkedIn "Used in: [Role]" credibility badges.
-* **Phase 3: Featured Visual Showcase**  
-  Recommends the best presentations, portfolio links, or PDF decks to pin to the top of your profile so visitors stay and engage.
-* **Phase 4: Targeted Recommendations**  
-  Provides pre-drafted, 2–3 sentence endorsement templates you can send to past managers, peers, or mentors to build social proof.
+| Phase | Task | Section / Task Name | What It Delivers |
+| :--- | :---: | :--- | :--- |
+| **Phase 1: Proof-Building** | **4.1** | **Headline Optimization** | 2–3 calibrated headline options (<220 chars) matching recruiter search titles. |
+| | **4.2** | **About Section** | 1,800–2,100 character narrative hook, core value proposition, and proof points. |
+| | **4.3** | **Experience Section** | Role-by-role accomplishment bullets with quantified metrics, tagged skills, and media. |
+| | **4.4** | **Education & Certifications** | Formatted degrees, joint/consortium details, credential links, and tagged skills. |
+| | **4.5** | **Standalone Projects** | Technical architectures, models, problem statements, and proof deliverables. |
+| | **4.6** | **Supporting Sections** | Publications, Honors & Awards, Volunteering, and Languages. |
+| **Phase 2: Skills Bank** | **4.7** | **Master Skills Aggregation** | Links skills to past roles for "Used in: [Role]" trust badges, backfills up to 100 skills, and locks Top 5 Pinned Skills. |
+| **Phase 3: Visual Showcase** | **4.8** | **Featured Portfolio Curation** | Selects and orders 3–5 interactive cards (PDF slide decks, demos, media, code repos) to maximize profile dwell time. |
+| **Phase 4: Social Proof** | **4.9** | **Recommendations Playbook** | 3 targeted recommender outreach messages with pre-written 2–3 sentence endorsement templates ready to paste. |
 
 ---
 
