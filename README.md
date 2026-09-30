@@ -125,6 +125,52 @@ While built natively for Antigravity, you can also use this assistant on other A
 
 ---
 
+## 🏗️ Under the Hood: Technical Architecture & System Design
+
+For AI engineers, developers, and technical recruiters, this skill is engineered as a **deterministic, multi-stage agentic pipeline with Directed Acyclic Graph (DAG) dependencies and strict Human-in-the-Loop (HITL) state gating**.
+
+It operates with **zero runtime binary dependencies**—executing as a structured prompt-engineered state machine with local filesystem persistence.
+
+```mermaid
+graph TD
+    subgraph S1["Stage 1: Ingestion, Grounding & Strategy"]
+        A["Multi-Channel Intake<br/>(CV, LinkedIn Export, Job Descriptions)"] --> B["Verbatim Entity Extraction<br/>(LINKEDIN_PROFILE_DATA.md)"]
+        B --> C["Adaptive Sequential Inquiry<br/>(Single-Question Branching Protocol)"]
+        C --> D["Competency Convergence Matrix"]
+        D --> E["Strategic Archetype Selection<br/>(Gate: User Selection)"]
+    end
+
+    subgraph S2["Stage 2: Taxonomy & SEO Compilation"]
+        E --> F["Recruiter Search Title Taxonomy"]
+        F --> G["Atomic Skill Normalization"]
+        G --> H["Skills-to-Proof Dependency Graph"]
+    end
+
+    subgraph S3["Stage 3: 4-Phase DAG Production Engine"]
+        H --> P1["Phase 1: Proof-Building (Tasks 4.1 – 4.6)<br/>Headline ➔ About ➔ Experience ➔ Education ➔ Projects ➔ Supporting"]
+        P1 -->|Harvest Tagged Skills| P2["Phase 2: Master Aggregation (Task 4.7)<br/>'Used in' Verification ➔ Backfill to 100 ➔ Top 5 Pinned"]
+        P2 --> P3["Phase 3: Visual Showcase (Task 4.8)<br/>Interactive PDF ➔ Demos ➔ Media ➔ Code Repos"]
+        P3 --> P4["Phase 4: Social Proof (Task 4.9)<br/>Recommender Playbook & Ghostwritten Templates"]
+    end
+
+    subgraph S4["Output & Quality Control Layer"]
+        P1 -.-> QC["Anti-AI Style Linter<br/>(SIGNS_OF_AI_WRITING.md)"]
+        P2 -.-> QC
+        QC --> Gate{"HITL Strict State Gate<br/>'I approve' required"}
+        Gate -->|Approved| Out["Production Artifact<br/>(LINKEDIN_PROFILE_REWRITES.md)"]
+    end
+```
+
+### Key Architectural Pillars
+
+* **Verbatim Entity Isolation**: Biographical facts are extracted verbatim into `LINKEDIN_PROFILE_DATA.md` before generation begins, preventing hallucinations from contaminating downstream copy.
+* **DAG Dependency Ordering**: Enforces strict structural sequence. Downstream assets (e.g. Master Skills aggregation or pinned widgets) can only be generated after upstream proof nodes (roles, degrees, projects) have tagged their atomic skills.
+* **Synchronous Human-in-the-Loop Gating**: State transitions to subsequent tasks are programmatically blocked until the user explicitly inputs `"I approve"`.
+* **Taxonomy Normalization**: Compiles titles to standardized Boolean strings recognized by LinkedIn Recruiter and normalizes skills to LinkedIn's atomic autocomplete database.
+* **Anti-AI Quality Linter**: Audits draft copy against `SIGNS_OF_AI_WRITING.md` to eliminate negative parallelisms, purple copulatives, and robotic triplets.
+
+---
+
 ## 💻 Developer / Command Line Setup (Optional)
 
 For technical users who prefer using Git in the terminal:
