@@ -6,7 +6,7 @@
 
 An AI-powered assistant that gives your LinkedIn profile a complete, executive-grade makeover. 
 
-It helps you **get found by recruiters**, highlights your strongest career achievements, and **sounds 100% human**—with zero robotic AI clichés.
+It helps you **get found by recruiters**, ensures **100% of your skills are backed by real proof**, and **sounds 100% human**—with zero robotic AI clichés.
 
 ---
 
@@ -41,6 +41,7 @@ Instead of dumping a generic wall of text, this assistant builds your profile sy
 
 ## 🛡️ Core Innovations: Why It Actually Works
 
+* 🎯 **100% Evidence-Backed Skills (No Floating Keywords)**: On typical profiles, skills are just unverified words in a list. Through this process, every single skill is tied directly to a specific job, degree, or project in your history. When recruiters view your profile, LinkedIn displays the official *"Used in: [Role / Company]"* badge under each skill, providing instant credibility.
 * 🔒 **Strict Approval Gates (Zero Hallucination)**: The assistant will never run ahead, guess, or invent things you never did. It writes **one section at a time** and pauses. It literally cannot proceed until you review the text and explicitly reply **"I approve"**.
 * ✍️ **100% Human Writing Standard**: Every sentence is checked against an anti-AI style filter to ensure it sounds like an articulate, confident professional, not a machine.
 * 🧪 **Battle-Tested on a Real Case Study**: This entire workflow isn't theoretical. It was refined through a real-world case study on the creator, capturing platform quirks, edge cases, and hard-won lessons learned (documented in [`PROCESS_LOGS.md`](./references/PROCESS_LOGS.md)).
